@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+
+
+}
+body{
+    font-family: 15px 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+.nav_container {
+    display: flex;
+    border : 2px solid black ;
+    background-color: rgb(29, 42, 53) ;
+    align-items: center;
+    height: auto;
+    
+    
+}
+.nav_container > div {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    line-height: 17px;
+    font-size: 18px;
+    
+
+}
+.nav_container_item_Get { 
+    border: 2px solid black ;
+    border-radius:35px;
+    background-color: pink;
+    color: black;
+    width: 140px; 
+    padding: 10px!important;
+    margin: 0px 5px ;
+    
+
+}
+
+.nav_container_item_div { 
+    border: 2px solid black ;
+    border-radius:35px;
+    background-color: green;
+    color: black;
+    width: 115px;
+    padding: 7px!important;
+    margin: 0px 5px ;
+}
+.nav_container_item_buttom {
+    font-size:13px; 
+    border: 0.5px solid black ;
+    border-radius:25px;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    width: 40px; 
+    margin: 0px 3px ;
+}
+.nav_container_item_login { 
+    border: 1px solid black ;
+    border-radius:35px;
+    background-color: green;
+    color: black;
+    width: 115px;
+    padding: 7px!important;
+    font-size: 18px!important;
+    margin: 0px 5px ;
+}
+
+.main_container{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(13,23, 33)!important;
+    align-content:center;
+    padding : 90px 0px;
+    height: 500px;
+}
+.main_body_element{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    background-color: #D9EEE1!important;
+    height: auto;
+    padding :20px 0px;
+    
+    
+}
+.main_body_element > div {
+    
+    padding: 26px 20px ; 
+    margin : 25px ;
+    border-radius: 20px;
+    width: 500px;
+    
+}
+.main_body_element_div{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    line-height: 35px;
+    align-items: center;
+    
+}
+.main_body_element_div > div {
+    text-align: center;
+    width: 200px;
+    margin: 5px 0px;
+    
+}
+
+
+/* Grid Classes */
+
+.grid_container {
+    display: grid ;
+    background-color: grey;
+    grid-template-columns:repeat(4 , 1fr);
+    grid-template-rows:  repeat(4 , 1fr);
+    padding: 50px 185px;
+    gap: 40px 40px ;
+}
+.grid_container > div {
+    background-color: pink;
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.item-1-a {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+  }
+.item-1-b {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    
+}
+
+
+
+
+
+

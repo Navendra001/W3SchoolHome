@@ -1,0 +1,38 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-secondary);
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.bContainer {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(13,23, 33)!important;
+    align-items:center;
+    justify-items:auto;
+    padding : 90px 0px;
+    /* height: 500px; */
+}
+.bContainer > div {
+    background-color: aliceblue;
+    font-size: 100px;
+    margin: 0px 0px 50px 0px;
+}
+.bContainer > button {
+    background-color: aliceblue;
+    font-size: 50px;
+}
